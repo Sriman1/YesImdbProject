@@ -15,5 +15,7 @@ This application exposes three end points:
 
 3. Returns a list of movies that released in the year entered in the search (E.g: localhost/year/1998)
   
-  
+The APIs return an empty list if there are no matching results.
 P.S - You can use full names or second names for the search or a combination of full names and second names for the "common API".
+
+
