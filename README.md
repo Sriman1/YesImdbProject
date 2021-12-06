@@ -1,5 +1,5 @@
 # YesImdbProject
-Download the jar file from the repository
+Download the jar file(searchDemo-0.0.1-SNAPSHOT.jar) from the repository
 Run the following command "java -jar <location of the jar file>" to run the application on your machine (Requires java runtime to be installed on the machine)
 This is a spring boot application and it comes with tomcat inbuilt. The default port is 8080. So make sure that this port is not being used while running the project.
 After the spring boot application starts up, It takes around 7 to 11 seconds before your can start making the API calls.
