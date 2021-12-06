@@ -4,7 +4,9 @@ Run the following command "java -jar <location of the jar file>" to run the appl
 This is a spring boot application and it comes with tomcat inbuilt. The default port is 8080. So make sure that this port is not being used while running the project.
 After the spring boot application starts up, It takes around 7 to 11 seconds before your can start making the API calls.
 In this time the in memory data structure is populated by scraping and parsing the IMDB web pages.
-Functionality
+
+  
+Functionality:
 This application exposes three end points:
   
 1. Returns a list of movies along with the year of release based on the search field. (E.g : localhost:8080/search/hanks or you can also use the full name(tom hanks) of the person you are looking to get the movies of. The application is case insensitive so feel free to use capitalization).
