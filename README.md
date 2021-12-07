@@ -9,9 +9,9 @@ In this time the in memory data structure is populated by scraping and parsing t
 Functionality:
 This application exposes three end points:
   
-1. Search API - Returns a list of movies along with the year of release based on the search field. (E.g : localhost:8080/search/hanks or you can also use the full name(tom hanks) of the person you are looking to get the movies of. The application is case insensitive so feel free to use capitalization).
+1. Search API for one person - Returns a list of movies along with the year of release based on the search field. (E.g : localhost:8080/search/hanks or you can also use the full name(tom hanks) of the person you are looking to get the movies of. The application is case insensitive so feel free to use capitalization).
 
-2. Common API -  Returns a list of movies along with the year of release that both the search fields/names are a part of(E.g : localhost/common/hanks/spielberg)
+2. Search API for common movies of both people -  Returns a list of movies along with the year of release that both the search fields/names are a part of(E.g : localhost/search/hanks/spielberg)
 
 3. Year API - Returns a list of movies that released in the year entered in the search (E.g: localhost/year/1998)
   
